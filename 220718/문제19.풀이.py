@@ -8,7 +8,7 @@ cnt = 0
 # int : 0이 아닌 다른 수면 무조건 True!
 while number != 0:
     # number = number // 10
-    number //= number
+    number //= 10
     cnt += 1
 
 print(cnt)

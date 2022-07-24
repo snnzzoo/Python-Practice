@@ -11,7 +11,7 @@
 ## AttributeError: 'tuple' object has no attribute 'append'
 
 N = 10
-answer =[]
+answer = []
 for number in range(1, N + 1):
     answer.append(number * 2)
 

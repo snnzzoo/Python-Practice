@@ -12,7 +12,7 @@
 
 # print(total // count)
 
-## 5
+## 55
 ## indentation error: count를 for 반복문 안에 포함시키기,
 ## '/' 하나 삭제
 
