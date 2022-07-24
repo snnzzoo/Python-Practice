@@ -9,6 +9,7 @@ for idx in range(len(word)):
     # 'a'일 때
     if word[idx] == 'a':
         print(idx)
+        # 처음 한 번 등장하면 stop
         break
 # for 문을 다 돌았다는 뜻은
 # 한 번도 break에 안 걸렸다.
