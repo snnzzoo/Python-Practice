@@ -3,6 +3,6 @@
 import sys
 sys.stdin = open("SW Expert Academy/220719/1545_input.txt", "r")
 
-T = int(input())
-for test_case in range(T, -1, -1):
-    print(test_case, end=' ')
+N = int(input())
+for n in range(N, -1, -1): # N부터 0까지 역순으로
+    print(n, end=' ')
