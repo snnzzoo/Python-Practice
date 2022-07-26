@@ -17,6 +17,8 @@
 #     print("첫 번째 리스트의 최댓값과 두 번째 리스트의 최댓값은 같습니다.")
 # TypeError: 'int' object is not callable
 
+## 예약어를 변수명으로 지정하면 안됨 (max -> max1) 
+
 number_list = [1, 23, 9, 6, 91, 59, 29]
 max1 = max(number_list)
 
