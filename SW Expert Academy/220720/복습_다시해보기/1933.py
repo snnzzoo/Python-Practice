@@ -5,8 +5,9 @@ sys.stdin = open('SW Expert Academy/220720/1933_input.txt', 'r')
 
 N = int(input())
 
-# N을 어떤 수로 나누었을 때, 나머지(%)가 0이 나오면 N의 약수
+# N % a == 0
+# N을 a라는 수로 나눴을 때의 나머지가 0 : a는 N의 약수
 
-for i in range(1, N + 1):
-    if N%i == 0:
-        print(i, end=' ')
+for n in range(1, N + 1):
+    if N % n == 0:
+        print(n, end=' ')

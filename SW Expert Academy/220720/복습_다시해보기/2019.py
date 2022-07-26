@@ -4,8 +4,7 @@ import sys
 sys.stdin = open("SW Expert Academy/220720/2019_input.txt", "r")
 
 N = int(input())
-result = 0
 
-for i in range(0, N + 1):
-    result = 2**i
+for n in range(0, N + 1):
+    result = 2 ** n
     print(result, end=' ')

@@ -1,5 +1,7 @@
+# https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV189xUaI8UCFAZN
+
 import sys
-sys.stdin = open('220720/SWEA 문제풀이/1284_input.txt', 'r')
+sys.stdin = open('SW Expert Academy/220720/1284_input.txt', 'r')
 
 # A사 : 1L * P원
 # B사 :
